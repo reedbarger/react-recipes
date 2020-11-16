@@ -6,8 +6,7 @@
   "scripts": {
     "server": "nodemon server.js",
     "client": "cd client && npm start",
-    "dev":
-      "concurrently --names \"server,client\" \"npm run server --silent\" \"npm run client --silent\""
+    "dev": "concurrently --names \"server,client\" \"npm run server --silent\" \"npm run client --silent\""
   },
   "author": "",
   "license": "ISC",
